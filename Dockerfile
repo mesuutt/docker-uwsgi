@@ -23,6 +23,6 @@ RUN pip install -r /srv/app/requirements.txt
 RUN chown -R uwsgi:uwsgi /srv
 
 
-EXPOSE 9000 9001
+EXPOSE 9000
 
 CMD ["supervisord", "-n"]
