@@ -25,4 +25,7 @@ RUN chown -R uwsgi:uwsgi /srv
 
 EXPOSE 9000
 
+# uWSGI stats server port
+# EXPOSE 9001
+
 CMD ["supervisord", "-n"]
