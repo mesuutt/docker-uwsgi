@@ -25,7 +25,3 @@ then open uwsgi.ini and change `module=website.uwsgi:application` as `module=myp
 * docker build -t webapp .
 * docker run -d webapp
 
-
-212
-
-
